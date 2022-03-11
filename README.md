@@ -249,9 +249,10 @@ auto& a = container.Store("myTextureID", foo, CacheMode::Allocate);
 auto& b = container.Store("myTextureID", bar, CacheMode::Reuse);
 
 // Result:
+// foo != bar
 // a == b
-// foo == bar
 // &a == foo
+// &b == foo
 // &b != bar
 ```
 
