@@ -1,4 +1,8 @@
 # Genode.IO #
+
+> [!important]
+> This repository has been archived because it has been superseded by the full [Genode](https://github.com/SirusDoma/Genode) repository.
+
 Genode.IO is a module that provides Resource Management functionalities for a game.
 It is one of subset modules of my in-house game engine called **Genode** (**G**ame **E**ngi**N**e **O**n **DE**mand).
 
